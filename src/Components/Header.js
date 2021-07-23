@@ -8,7 +8,6 @@ class Header extends Component {
             var occupation = this.props.data.occupation;
             var mission = this.props.data.mission;
             var description = this.props.data.description;
-            var city = this.props.data.address.city;
             var networks = this.props.data.social.map((network) => {
                 if (network.name) {
                     return (
