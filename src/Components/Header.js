@@ -78,7 +78,6 @@ class Header extends Component {
                             <a className="uiuc" href="https://illinois.edu/">
                                 University of Illinois at Urbana-Champaign
                             </a>
-                            .
                         </h3>
                         <br />
                         <h3>{description}</h3>
