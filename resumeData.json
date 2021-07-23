@@ -1,0 +1,213 @@
+{
+    "main": {
+        "name": "Henry Woo",
+        "occupation": "Software Engineer & Data Scientist",
+        "mission": "I'm currently seeking opportunities in Full Stack and Frontend Development.",
+        "description": "Complementary to my interests in code, art, and math, I'm an engineer who enjoys application development and deep learning.",
+        "image": "profilepic.jpg",
+        "bio": "I love to tinker, build, and learn.",
+        "contactmessage": "Contact me",
+        "email": "henrycwoo@gmail.com",
+        "phone": "(224) 678-8949",
+        "address": {
+            "street": "",
+            "city": "",
+            "state": "",
+            "zip": ""
+        },
+        "website": "https://www.henrycwoo.vercel.app",
+        "resumedownload": "",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/henrycwoo/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "http://github.com/HenryCWoo",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "",
+                "url": "",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "",
+                "url": "",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "",
+                "url": "",
+                "className": "fa fa-instagram"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "",
+        "education": [
+            {
+                "school": "University of Illinois at Urbana-Champaign",
+                "degree": "Bachelor of Science in Computer Science with Honors / Minor in Electrical Engineering",
+                "graduated": "December 2019",
+                "description": "Data Structures, Algorithms & Models for Computation, Systems Programming, UIUX, Virtual Reality, Applied Machine Learning, Artificial Intelligence, Linear Algebra, Statistics, Data Mining",
+                "honors": "Dean's List, James Scholar, Great Lakes STEM Scholar for Computer Science"
+            },
+            {
+                "school": "University of Illinois at Urbana-Champaign",
+                "degree": "Master of Computer Science",
+                "graduated": "December 2020",
+                "description": "Computer Vision, Deep Learning, Machine Learning, Meta-Learning, Signal Processing",
+                "honors": ""
+            }
+        ],
+        "work": [
+            {
+                "company": "Sandia National Laboratories",
+                "title": "Software Engineering Intern",
+                "years": "Summer 2020",
+                "description": "Python, Tkinter"
+            },
+            {
+                "company": "University of Illinois at Urbana-Champaign",
+                "title": "Graduate Teaching Assistant",
+                "years": "Spring 2020",
+                "description": "Java, C++"
+            },
+            {
+                "company": "CCC Intelligent Solutions",
+                "title": "Data Science Intern",
+                "years": "Summer 2019",
+                "description": "Python, Tensorflow, Plotly"
+            },
+            {
+                "company": "Trustwave Holdings",
+                "title": "Software Engineering Intern",
+                "years": "Fall 2018",
+                "description": "ReactJS, Java Springboot, Elasticsearch, Apigee"
+            },
+            {
+                "company": "Pico",
+                "title": "Software Engineering Intern",
+                "years": "Summer 2018",
+                "description": "Python, Tensorflow"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Javascript | React | HTML | CSS | Procreate",
+                "level": ""
+            },
+            {
+                "name": "Python | Pytorch | Data Visualizations | Numpy | Pandas | Flask",
+                "level": ""
+            },
+
+            {
+                "name": "Git | Java | C/C++ ",
+                "level": ""
+            },
+            {
+                "name": "",
+                "level": "90%"
+            },
+            {
+                "name": "",
+                "level": "80%"
+            },
+            {
+                "name": "",
+                "level": "50%"
+            },
+            {
+                "name": "",
+                "level": "80%"
+            }
+        ],
+        "extras": [
+            "Jane Street Electronic Trading Competition - First Place",
+            "UIUC Mechmania AI Hackathon - Finalist",
+            "Syngenta Innovation Collaboration - Third Place"
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Resume Website",
+                "category": "React based resume website.",
+                "image": "resume.png",
+                "url": ""
+            },
+            {
+                "title": "HuTaoBot",
+                "category": "Discord verified and Top.gg listed rolling simulator bot based on the top mobile game Genshin Impact by Mihoyo.",
+                "image": "hutaobot.jpg",
+                "url": "https://top.gg/bot/795437634922348574"
+            },
+            {
+                "title": "Incremental Learning CGAN Reimplementation",
+                "category": "Helped a PhD student experiment with \"Incremental Learning Using Conditional Adversarial Networks\" Xiang et al. Experimented with architectural changes, hyperparameter tuning, and data visualizations.",
+                "image": "increm_cgan.png",
+                "url": "https://github.com/HenryCWoo/gan_incremental"
+            },
+            {
+                "title": "Wells Fargo Campus Analytics Challenge 2020",
+                "category": "Given a dataset, I employed a deep learning model to achieve high accuracies.",
+                "image": "wellsfargo.png",
+                "url": "https://github.com/HenryCWoo/WellsFargoChallenge2020"
+            },
+            {
+                "title": "UIUC Deep Learning Kaggle Class Competitions",
+                "category": "Shared knowledge with my classmates to help achieve high accuracy scores in our CS498DL course at UIUC. I post my standings here.",
+                "image": "kaggle.png",
+                "url": "https://www.kaggle.com/henrycwoo/competitions?tab=inclass"
+            },
+            {
+                "title": "Audio Digit Classification using Spectrograms",
+                "category": "Classified human spoken digits audio files using a CNN. (Machine Learning for Signal Processing Term Project)",
+                "image": "audio_digits.png",
+                "url": "https://github.com/leejwook96/CS598Final"
+            },
+            {
+                "title": "CycleGAN Reimplementation",
+                "category": "Reimplementation of CycleGAN architecture. (Deep Learning Term Project)",
+                "image": "cyclegan.jpg",
+                "url": "https://github.com/bqia0/CycleGAN"
+            },
+            {
+                "title": "Opico Emoji Keyboard",
+                "category": "I contributed to this open source project where I helped increase searchability of emojis through fuzzy search and expanding the keyword vocabulary.",
+                "image": "opico.gif",
+                "url": "https://github.com/sskhandek/react-native-emoji-input"
+            },
+            {
+                "title": "League of Legends Champion Stats",
+                "category": "Data visualizations and statistics on game characters. Written using ReactJS, Material-UI, Redis Queue, and Flask + mongoDB.",
+                "image": "lolstats.gif",
+                "url": "https://github.com/HenryCWoo/LoLChampionStats"
+            },
+            {
+                "title": "pix2pix Pytorch Implementation",
+                "category": "Reimplementation of the popular CGAN written in Pytorch. (Computer Vision Term Project)",
+                "image": "pix2pix.jpg",
+                "url": "https://github.com/HenryCWoo/pix2pix_pytorch"
+            },
+            {
+                "title": "Github App",
+                "category": "React Native mobile app for navigating Github. Includes 2FA authentication and a focus on modern aesthetic design.",
+                "image": "githubapp.gif",
+                "url": "https://github.com/HenryCWoo/GitHub-App-with-React-Native"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
+}
