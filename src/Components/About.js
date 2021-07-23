@@ -62,14 +62,14 @@ class About extends Component {
                                     <span>{phone}</span>
                                 </p>
                             </div>
-                            <div className="columns download">
+                            {/* <div className="columns download">
                                 <p>
                                     <a href={resumeDownload} className="button">
                                         <i className="fa fa-download"></i>
                                         Resume
                                     </a>
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
