@@ -5,7 +5,9 @@
     "homepage": "http://henrycwoo.github.io/",
     "dependencies": {
         "jquery": "^3.6.0",
+        "radium": "^0.26.1",
         "react": "^16.2.0",
+        "react-animations": "^1.0.0",
         "react-dom": "^16.2.0",
         "react-ga": "^2.7.0",
         "react-scripts": "1.0.17",

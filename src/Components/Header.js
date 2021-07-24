@@ -1,4 +1,17 @@
 import React, { Component } from "react";
+import { fadeIn, fadeInDown } from "react-animations";
+import Radium, { StyleRoot } from "radium";
+
+const styles = {
+    fadeIn: {
+        animation: "x 1s",
+        animationName: Radium.keyframes(fadeIn, "fadeIn"),
+    },
+    fadeInDown: {
+        animation: "x 1s",
+        animationName: Radium.keyframes(fadeInDown, "fadeInDown"),
+    },
+};
 
 class Header extends Component {
     render() {
@@ -39,54 +52,61 @@ class Header extends Component {
                         Hide navigation
                     </a>
 
-                    <ul id="nav" className="nav">
-                        <li className="current">
-                            <a className="smoothscroll" href="#home">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a className="smoothscroll" href="#about">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a className="smoothscroll" href="#resume">
-                                Experiences
-                            </a>
-                        </li>
-                        <li>
-                            <a className="smoothscroll" href="#portfolio">
-                                Projects
-                            </a>
-                        </li>
-                        {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-                        {/* <li>
+                    <StyleRoot>
+                        <ul id="nav" className="nav" style={styles.fadeInDown}>
+                            <li className="current">
+                                <a className="smoothscroll" href="#home">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a className="smoothscroll" href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a className="smoothscroll" href="#resume">
+                                    Experiences
+                                </a>
+                            </li>
+                            <li>
+                                <a className="smoothscroll" href="#portfolio">
+                                    Projects
+                                </a>
+                            </li>
+                            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+                            {/* <li>
                             <a className="smoothscroll" href="#contact">
                                 Contact
                             </a>
                         </li> */}
-                    </ul>
+                        </ul>
+                    </StyleRoot>
                 </nav>
 
                 <div className="row banner">
-                    <div className="banner-text">
-                        <h1 className="responsive-headline">I'm {name}</h1>
-                        <h3>
-                            Chicago-based <span>{occupation}</span> and recent
-                            graduate from the{" "}
-                            <a className="uiuc" href="https://illinois.edu/">
-                                University of Illinois at Urbana-Champaign
-                            </a>
-                        </h3>
-                        <br />
-                        <h3>{description}</h3>
-                        <br />
-                        <h3>{mission}</h3>
-                        <hr />
-                        <ul className="social">{networks}</ul>
-                        <div className="banner-background" />
-                    </div>
+                    <StyleRoot>
+                        <div className="banner-text" style={styles.fadeIn}>
+                            <h1 className="responsive-headline">I'm {name}</h1>
+                            <h3>
+                                Chicago-based <span>{occupation}</span> and
+                                recent graduate from the{" "}
+                                <a
+                                    className="uiuc"
+                                    href="https://illinois.edu/"
+                                >
+                                    University of Illinois at Urbana-Champaign
+                                </a>
+                            </h3>
+                            <br />
+                            <h3>{description}</h3>
+                            <br />
+                            <h3>{mission}</h3>
+                            <hr />
+                            <ul className="social">{networks}</ul>
+                            <div className="banner-background" />
+                        </div>
+                    </StyleRoot>
                 </div>
 
                 <p className="scrolldown">
