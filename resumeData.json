@@ -1,9 +1,9 @@
 {
     "main": {
         "name": "Henry Woo",
-        "occupation": "Software Engineer & Data Scientist",
-        "mission": "I'm currently seeking opportunities in Full Stack and Frontend Development.",
-        "description": "Complementary to my interests in code, art, and math, I'm an engineer who enjoys application development and deep learning.",
+        "occupation": "Software Engineer",
+        "mission": "Currently seeking full-time opportunities in Software Engineering",
+        "description": "I'm an engineer who enjoys coding and deep learning",
         "image": "profilepic.jpg",
         "bio": "I love to tinker, build, and learn.",
         "contactmessage": "Contact me",
