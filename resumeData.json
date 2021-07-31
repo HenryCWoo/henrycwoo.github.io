@@ -2,7 +2,7 @@
     "main": {
         "name": "Henry Woo",
         "occupation": "Software Engineer",
-        "mission": "Currently seeking full-time opportunities in Software Engineering",
+        "mission": "",
         "description": "I'm an engineer who enjoys coding and deep learning",
         "image": "profilepic.jpg",
         "bio": "I love to tinker, build, and learn.",
@@ -66,7 +66,7 @@
         "work": [
             {
                 "company": "Sandia National Laboratories",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Summer 2020",
                 "description": "Python, Tkinter"
             },
@@ -84,27 +84,26 @@
             },
             {
                 "company": "Trustwave Holdings",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Fall 2018",
                 "description": "ReactJS, Java Springboot, Elasticsearch, Apigee"
             },
             {
                 "company": "Pico",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Summer 2018",
                 "description": "Python"
             }
         ],
         "skills": [
             {
-                "name": "Javascript | React | HTML | CSS",
-                "level": ""
-            },
-            {
                 "name": "Python | Pytorch | Data Visualizations | Numpy | Pandas | Flask",
                 "level": ""
             },
-
+            {
+                "name": "Javascript | React | HTML | CSS",
+                "level": ""
+            },
             {
                 "name": "Git | Java | C/C++ ",
                 "level": ""
@@ -136,7 +135,7 @@
         "projects": [
             {
                 "title": "Resume Website",
-                "category": "React based resume website.",
+                "category": "React based resume website. Used Procreate for custom graphics.",
                 "image": "resume.png",
                 "url": "henrycwoo.github.io"
             },

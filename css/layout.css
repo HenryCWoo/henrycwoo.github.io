@@ -35,44 +35,43 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.jpg) no-repeat top
-        center;
+    background: rgb(225, 225, 225);
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
 }
 
-/* vertically center banner section */
-/* header:before {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-} */
+header #skyline {
+    width: 100%;
+    position: absolute;
+    opacity: 0.3;
+    filter: brightness(120%) contrast(120%);
+    bottom: -100px;
+}
 
-/* header .banner {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 auto;
-    width: 85%;
-    padding-bottom: 30px;
-    text-align: center;
-} */
+header #skyline-img {
+    width: 100%;
+}
 
 header {
     display: flex;
     height: 100vh;
     align-items: center;
+    justify-content: center;
 }
 
 header .banner {
+    border-style: solid;
+    border-width: thick;
+    border-color: #2890ff;
     display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: 50%;
-    padding-bottom: 30px;
-    margin: 0 auto;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: center;
     justify-content: center;
     position: relative;
 }
@@ -84,8 +83,9 @@ header .banner-background {
     top: -40px;
     left: 0;
     z-index: -1;
-    background-color: #002a35bb;
+    background-color: #b3b3b3bb;
     filter: blur(10px);
+    box-shadow: 2px 2px 2px;
 }
 
 header .banner-text {
@@ -93,20 +93,34 @@ header .banner-text {
     padding: 20px;
     position: relative;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 header .banner-text h1 {
-    font: 90px/1.1em "opensans-bold", sans-serif;
-    color: #fff;
+    font: 90px/1.1em "librebaskerville-regular", sans-serif;
+    color: rgb(0, 0, 0);
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+    /* text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8); */
 }
+
+header div#cartoon-container {
+    max-width: 30%;
+    max-height: 100%;
+}
+
 header .banner-text h3 {
     font: 18px/1.9em "librebaskerville-regular", serif;
-    color: #e6e4e4;
+    color: #000000;
     margin: 0 auto;
     width: 70%;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); */
+}
+
+header div#hero-text {
+    flex: 0.6;
 }
 
 header .banner-text h3 span,
@@ -138,7 +152,7 @@ header .social li {
     padding: 0;
 }
 header .social li a {
-    color: #fff;
+    color: #2890ff;
 }
 header .social li a:hover {
     color: #fd6b4a;
@@ -150,13 +164,12 @@ header .scrolldown a {
     bottom: 30px;
     left: 50%;
     margin-left: -29px;
-    color: #fff;
     display: block;
     height: 42px;
     width: 42px;
     font-size: 42px;
     line-height: 42px;
-    color: #fff;
+    color: #2890ff;
     border-radius: 100%;
 
     -webkit-transition: all 0.3s ease-in-out;
@@ -192,7 +205,8 @@ header .scrolldown a:hover {
     top: 0;
 }
 .opaque {
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 5px;
 }
 
 /* hide toggle button */
@@ -223,7 +237,7 @@ ul#nav li a {
     line-height: 32px;
     text-decoration: none;
     text-align: left;
-    color: #fff;
+    color: rgb(119, 119, 119);
 
     -webkit-transition: color 0.2s ease-in-out;
     -moz-transition: color 0.2s ease-in-out;
@@ -244,9 +258,9 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #232f6b;
-    padding-top: 96px;
-    padding-bottom: 66px;
+    background: #2e5682;
+    padding-top: 150px;
+    padding-bottom: 120px;
     overflow: hidden;
 }
 
@@ -270,8 +284,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
 }
 #about .contact-details {
@@ -1084,7 +1098,7 @@ call-to-action .button {
 footer {
     padding-top: 48px;
     margin-bottom: 48px;
-    color: #303030;
+    color: #747474;
     font-size: 14px;
     text-align: center;
     position: relative;
