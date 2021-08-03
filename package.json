@@ -4,14 +4,15 @@
     "private": true,
     "homepage": "http://henrycwoo.github.io/",
     "dependencies": {
+        "bootstrap": "^5.0.2",
         "jquery": "^3.6.0",
         "radium": "^0.26.1",
         "react": "^16.2.0",
         "react-animations": "^1.0.0",
+        "react-bootstrap": "^2.0.0-beta.4",
         "react-dom": "^16.2.0",
         "react-ga": "^2.7.0",
-        "react-scripts": "1.0.17",
-        "recaptcha-v3": "^1.10.0"
+        "react-scripts": "1.0.17"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -22,6 +23,9 @@
         "deploy": "gh-pages -d build"
     },
     "devDependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/preset-env": "^7.14.9",
+        "@babel/preset-react": "^7.14.5",
         "gh-pages": "^3.2.3"
     }
 }

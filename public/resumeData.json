@@ -1,9 +1,9 @@
 {
     "main": {
         "name": "Henry Woo",
-        "occupation": "Software Engineer & Data Scientist",
-        "mission": "I'm currently seeking opportunities in Full Stack and Frontend Development.",
-        "description": "Complementary to my interests in code, art, and math, I'm an engineer who enjoys application development and deep learning.",
+        "occupation": "Software Engineer",
+        "mission": "",
+        "description": "I'm an engineer who enjoys coding and deep learning",
         "image": "profilepic.jpg",
         "bio": "I love to tinker, build, and learn.",
         "contactmessage": "Contact me",
@@ -52,7 +52,7 @@
                 "school": "University of Illinois at Urbana-Champaign",
                 "degree": "Bachelor of Science in Computer Science with Honors / Minor in Electrical Engineering",
                 "graduated": "December 2019",
-                "description": "Data Structures, Algorithms & Models for Computation, Systems Programming, UIUX, Virtual Reality, Applied Machine Learning, Artificial Intelligence, Linear Algebra, Statistics, Data Mining",
+                "description": "Data Structures, Algorithms & Models for Computation, Systems Programming, UIUX, Applied Machine Learning, Artificial Intelligence, Linear Algebra, Statistics, Data Mining, Virtual Reality",
                 "honors": "Dean's List, James Scholar, Great Lakes STEM Scholar for Computer Science"
             },
             {
@@ -66,7 +66,7 @@
         "work": [
             {
                 "company": "Sandia National Laboratories",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Summer 2020",
                 "description": "Python, Tkinter"
             },
@@ -84,27 +84,26 @@
             },
             {
                 "company": "Trustwave Holdings",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Fall 2018",
                 "description": "ReactJS, Java Springboot, Elasticsearch, Apigee"
             },
             {
                 "company": "Pico",
-                "title": "Software Engineering Intern",
+                "title": "Software Engineer Intern",
                 "years": "Summer 2018",
-                "description": "Python, Tensorflow"
+                "description": "Python"
             }
         ],
         "skills": [
             {
-                "name": "Javascript | React | HTML | CSS | Procreate",
-                "level": ""
-            },
-            {
                 "name": "Python | Pytorch | Data Visualizations | Numpy | Pandas | Flask",
                 "level": ""
             },
-
+            {
+                "name": "Javascript | React | HTML | CSS",
+                "level": ""
+            },
             {
                 "name": "Git | Java | C/C++ ",
                 "level": ""
@@ -136,7 +135,7 @@
         "projects": [
             {
                 "title": "Resume Website",
-                "category": "React based resume website.",
+                "category": "React based resume website. Used Procreate for custom graphics.",
                 "image": "resume.png",
                 "url": "henrycwoo.github.io"
             },

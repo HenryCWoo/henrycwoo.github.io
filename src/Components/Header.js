@@ -36,6 +36,14 @@ class Header extends Component {
 
         return (
             <header id="home">
+                <div id="skyline">
+                    <img
+                        src="images/chicago_skyline.png"
+                        id="skyline-img"
+                        alt="blue chicago skyline"
+                    />
+                </div>
+
                 <nav id="nav-wrap">
                     <a
                         className="mobile-btn"
@@ -52,68 +60,70 @@ class Header extends Component {
                         Hide navigation
                     </a>
 
-                    <StyleRoot>
-                        <ul id="nav" className="nav" style={styles.fadeInDown}>
-                            <li className="current">
-                                <a className="smoothscroll" href="#home">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a className="smoothscroll" href="#about">
-                                    About
-                                </a>
-                            </li>
-                            <li>
-                                <a className="smoothscroll" href="#resume">
-                                    Experiences
-                                </a>
-                            </li>
-                            <li>
-                                <a className="smoothscroll" href="#portfolio">
-                                    Projects
-                                </a>
-                            </li>
-                            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-                            {/* <li>
-                            <a className="smoothscroll" href="#contact">
-                                Contact
+                    {/* <StyleRoot> */}
+                    {/* <ul id="nav" style={styles.fadeInDown}> */}
+                    <ul id="nav">
+                        <li className="current">
+                            <a className="smoothscroll" href="#home">
+                                Home
                             </a>
-                        </li> */}
-                        </ul>
-                    </StyleRoot>
+                        </li>
+                        <li>
+                            <a className="smoothscroll" href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a className="smoothscroll" href="#resume">
+                                Experience
+                            </a>
+                        </li>
+                        <li>
+                            <a className="smoothscroll" href="#portfolio">
+                                Projects
+                            </a>
+                        </li>
+                    </ul>
+                    {/* </StyleRoot> */}
                 </nav>
 
-                <div className="row banner">
+                <div className="banner">
                     <StyleRoot>
                         <div className="banner-text" style={styles.fadeIn}>
-                            <h1 className="responsive-headline">I'm {name}</h1>
-                            <h3>
-                                Chicago-based <span>{occupation}</span> and
-                                recent graduate from the{" "}
-                                <a
-                                    className="uiuc"
-                                    href="https://illinois.edu/"
-                                >
-                                    University of Illinois at Urbana-Champaign
-                                </a>
-                            </h3>
-                            <br />
-                            <h3>{description}</h3>
-                            <br />
-                            <h3>{mission}</h3>
-                            <hr />
-                            <ul className="social">{networks}</ul>
-                            <div className="banner-background" />
+                            <div id="cartoon-container">
+                                <img src="images/me_cartoon.png" />
+                            </div>
+                            <div id="hero-text">
+                                <h3>Hi, I'm</h3>
+                                <h1 className="responsive-headline">{name}</h1>
+                                <h3>
+                                    Chicago-based <span>{occupation}</span>
+                                    <br />
+                                    & <br />
+                                    Recent graduate from{" "}
+                                    <a
+                                        className="uiuc"
+                                        href="https://illinois.edu/"
+                                    >
+                                        UIUC
+                                    </a>{" "}
+                                </h3>
+                                <br />
+                                <h3>{description}</h3>
+                                <br />
+                                <h3>{mission}</h3>
+                                <hr />
+                                <ul className="social">{networks}</ul>
+                                {/* <div className="banner-background" /> */}
+                            </div>
                         </div>
                     </StyleRoot>
+                    <p className="scrolldown">
+                        <a className="smoothscroll" href="#about">
+                            <i className="icon-down-circle"></i>
+                        </a>
+                    </p>
                 </div>
-
-                <p className="scrolldown">
-                    <a className="smoothscroll" href="#about">
-                        <i className="icon-down-circle"></i>
-                    </a>
-                </p>
             </header>
         );
     }

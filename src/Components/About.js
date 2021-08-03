@@ -30,9 +30,8 @@ class About extends Component {
                         <p>
                             {bio}
                             <br />
-                            My favorite and most comfortable to use technology
-                            for general purposes, lightweight apps, and data
-                            science is <span>Python</span>.
+                            My favorite language of choice is{" "}
+                            <span>Python</span>.
                             <br />
                             <span>React (Javascript)</span> is my preference for
                             application development and design.
@@ -41,9 +40,9 @@ class About extends Component {
 
                         <p>
                             {" "}
-                            In my freetime, I love to play badminton, work on my
-                            golf game, game online with friends, and tinker on
-                            side projects.
+                            In my freetime, I play badminton, work on my golf
+                            game, game online with friends, and tinker on side
+                            projects.
                         </p>
                         <div className="row">
                             <div className="columns contact-details">

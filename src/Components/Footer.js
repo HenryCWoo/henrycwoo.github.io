@@ -23,16 +23,7 @@ class Footer extends Component {
                         <ul className="social-links">{networks}</ul>
 
                         <ul className="copyright">
-                            <li>
-                                Base template by{" "}
-                                <a
-                                    title="Styleshout"
-                                    href="http://www.styleshout.com/"
-                                >
-                                    Styleshout
-                                </a>
-                            </li>
-                            <li>Modified by Henry Woo</li>
+                            <li>Henry Woo</li>
                             <li>2021</li>
                         </ul>
                     </div>
