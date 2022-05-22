@@ -65,6 +65,12 @@
         ],
         "work": [
             {
+                "company": "Google",
+                "title": "Software Engineer",
+                "years": "2022",
+                "description": "Go"
+            },
+            {
                 "company": "Sandia National Laboratories",
                 "title": "Software Engineer Intern",
                 "years": "Summer 2020",
