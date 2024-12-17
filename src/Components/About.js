@@ -30,37 +30,35 @@ class About extends Component {
                         <p>
                             {bio}
                             <br />
-                            My favorite language of choice is{" "}
-                            <span>Python</span>.
-                            <br />
-                            <span>React (Javascript)</span> is my preference for
-                            application development and design.
+                            I'm a Chicago-based engineer passionate about improving and learning!
                             <br />
                         </p>
 
                         <p>
                             {" "}
-                            In my freetime, I play badminton, work on my golf
-                            game, game online with friends, and tinker on side
-                            projects.
+                            I love to play sports, like badminton, volleyball, golf, and pickleball. I frequently visit Japan and Korea because the food there is amazing!
                         </p>
-                        <div className="row">
-                            <div className="columns contact-details">
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    {/* <span>{name}</span>
-                                    <br />
-                                    <span>
-                                        {street}
-                                        <br />
-                                        {city} {state}, {zip}
-                                    </span>
-                                    <br /> */}
-                                    <span>{email}</span>
-                                    <br />
-                                    <span>{phone}</span>
-                                </p>
-                            </div>
+
+                        <p>
+                            I'm also an avid 3-d printer. I taught myself how to CAD and love to build gadgets, practical parts, and gifts!
+                        </p>
+                        // <div className="row">
+                        //     <div className="columns contact-details">
+                        //         <h2>Contact Details</h2>
+                        //         <p className="address">
+                        //             {/* <span>{name}</span>
+                        //             <br />
+                        //             <span>
+                        //                 {street}
+                        //                 <br />
+                        //                 {city} {state}, {zip}
+                        //             </span>
+                        //             <br /> */}
+                        //             <span>{email}</span>
+                        //             <br />
+                        //             <span>{phone}</span>
+                        //         </p>
+                        //     </div>
                             {/* <div className="columns download">
                                 <p>
                                     <a href={resumeDownload} className="button">
